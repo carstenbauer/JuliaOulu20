@@ -1,6 +1,6 @@
 # JuliaOulu20
 
-Julia Workshop 2020 @ Oulu University, Finnland
+Julia Workshop 2020 @ University of Oulu, Finnland
 
 Try it out live:
 
