@@ -84,11 +84,16 @@ Pkg.add("IJulia")
 ```
 If you have a local python installation and IJulia doesn't recognize it, you may give it a hint with
 ```julia
-`ENV["PYTHON"] = "path/to/my/python-executable"`
+ENV["PYTHON"] = "path/to/my/python-executable"
 Pkg.build("IJulia")
 ```
 
-You now that things are set up correctly when you can start the notebook server (see above).
+You now that things are set up correctly when you can start the notebook server
+
+```julia
+using IJulia
+notebook()
+```
 
 ## Poster
 
