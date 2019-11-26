@@ -1,4 +1,4 @@
-# JuliaOulu2020
+# JuliaOulu20
 
 Julia Workshop 2020 @ Oulu University, Finnland
 
