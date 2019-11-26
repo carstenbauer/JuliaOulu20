@@ -14,3 +14,7 @@ Coursework: Equals to 2 ETCS points and contains the workshop lectures as well a
 ## Try it out live! (Beta)
 
 Click on the [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/crstnbr/JuliaOulu20/master) badge to dive right into the workshop materials.
+
+## Poster
+
+<a href="https://github.com/crstnbr/JuliaOulu20/raw/master/orga/poster.pdf"><img src="https://github.com/crstnbr/JuliaOulu20/raw/master/orga/poster.png" width=400px></a>
