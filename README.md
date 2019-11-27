@@ -20,24 +20,24 @@ Click on the [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.o
 
 We will use Julia version 1.3 in the course. Go to the [julialang.org](https://julialang.org/downloads/) and install the binaries for your operating system.
 
-### Automatic installation: WorkshopTools.jl
-The easiest way to get set up for the workshop is to use the [WorkshopTools.jl](https://github.com/crstnbr/WorkshopTools.jl) package. It will
+### Automatic installation: WorkshopWizard.jl
+The easiest way to get set up for the workshop is to use the [WorkshopWizard.jl](https://github.com/crstnbr/WorkshopWizard.jl). It will
 * download the workshop materials,
 * install and precompile all Julia package dependencies, and
 * install the interactive IJulia/[Jupyter notebooks](http://jupyter.org) front-end (if necessary).
 
-Fire up Julia and run the following command to install WorkshopTools.jl.
+Fire up Julia and run the following command to install the WorkshopWizard.jl.
 ```julia
-using Pkg; pkg"add https:/github.com/crstnbr/WorkshopTools.jl"
+using Pkg; pkg"add https:/github.com/crstnbr/WorkshopWizard.jl"
 ```
 
 Afterwards, you can load the package and run the wizard (this may take a while).
 ```julia
-using WorkshopTools
-WorkshopTools.install()
+using WorkshopWizard
+WorkshopWizard.run_wizard()
 ```
 
-By default, the wizard will download the workshop materials to your Desktop (on windows) or your home directory (on linux/macOS). To change this default you can use the `path` keyword, i.e. `WorkshopTools.install(path="my/desired/path")`. To gain even more control over the installation process run the interactive version of the wizard, `WorkshopTools.install_interactive()`, instead.
+By default, the wizard will download the workshop materials to your Desktop (on windows) or your home directory (on linux/macOS).
 
 After the installation has completed you're good to go. Start the notebook server with
 ```julia
