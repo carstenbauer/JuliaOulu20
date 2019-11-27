@@ -44,7 +44,7 @@ After the installation has completed you're good to go. Start the notebook serve
 using IJulia
 notebook()
 ```
-and navigate to the workshop directory. That's it!
+and use the web interface (your browser should pop up) to navigate to the workshop directory. That's it!
 
 If, for some reason, the wizard doesn't work for you, turn to the manual instructions below.
 
