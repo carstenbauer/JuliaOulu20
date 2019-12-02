@@ -21,7 +21,7 @@ Click on the [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.o
 We will use Julia version 1.3 in the course. Go to the [julialang.org](https://julialang.org/downloads/) and install the binaries for your operating system.
 
 ### WorkshopWizard
-The easiest way to get set up for the workshop is to use the [WorkshopWizard.jl](https://github.com/crstnbr/WorkshopWizard.jl). It will
+The easiest way to get set up for the workshop is to use [WorkshopWizard.jl](https://github.com/crstnbr/WorkshopWizard.jl). It will
 * download the workshop materials,
 * install and precompile all Julia package dependencies, and
 * make the interactive IJulia/[Jupyter notebooks](http://jupyter.org) front-end globally available.
