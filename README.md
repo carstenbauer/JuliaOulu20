@@ -26,7 +26,7 @@ The easiest way to get set up for the workshop is to use the [WorkshopWizard.jl]
 * install and precompile all Julia package dependencies, and
 * make the interactive IJulia/[Jupyter notebooks](http://jupyter.org) front-end globally available.
 
-Fire up Julia and run the following command to install the WorkshopWizard.jl.
+Fire up Julia and run the following command to install the WorkshopWizard.
 ```julia
 using Pkg; pkg"add https:/github.com/crstnbr/WorkshopWizard.jl"
 ```
