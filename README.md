@@ -24,7 +24,7 @@ We will use Julia version 1.3 in the course. Go to the [julialang.org](https://j
 The easiest way to get set up for the workshop is to use the [WorkshopWizard.jl](https://github.com/crstnbr/WorkshopWizard.jl). It will
 * download the workshop materials,
 * install and precompile all Julia package dependencies, and
-* install the interactive IJulia/[Jupyter notebooks](http://jupyter.org) front-end (if necessary).
+* make the interactive IJulia/[Jupyter notebooks](http://jupyter.org) front-end globally available.
 
 Fire up Julia and run the following command to install the WorkshopWizard.jl.
 ```julia
