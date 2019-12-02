@@ -16,31 +16,11 @@ In case of questions, feel free to [contact me](http://github.com/crstnbr).
 
 Click on the [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/crstnbr/JuliaOulu20/master) badge to dive right into the workshop materials.
 
-## Getting started
+## Preparing for the workshop
 
-First things first: we will use Julia version 1.3 in the course. Go to the [julialang.org](https://julialang.org/downloads/) and install the binaries for your operating system.
+The workshop uses Julia version 1.3. Go to [julialang.org](https://julialang.org/downloads/) and install the binaries for your operating system.
 
-The easiest way to get set up for the workshop is to use the [WorkshopWizard](https://crstnbr.github.io/WorkshopWizard.jl/dev/). Fire up Julia and run the following command
-```julia
-using Pkg; pkg"add https:/github.com/crstnbr/WorkshopWizard.jl"
-```
-
-Afterwards, load the package and run the wizard (this may take a while).
-```julia
-using WorkshopWizard
-WorkshopWizard.run_wizard()
-```
-
-By default, the wizard will download the workshop materials to your Desktop (on windows) or your home directory (on linux/macOS).
-
-After the installation has completed you're good to go. Start the notebook server with
-```julia
-using IJulia
-notebook()
-```
-and use the web interface (your browser should pop up) to navigate to the workshop directory. That's it!
-
-For [troubleshooting](https://crstnbr.github.io/WorkshopWizard.jl/dev/troubleshooting/#Troubleshooting-1) and [manual installation instructions](https://crstnbr.github.io/WorkshopWizard.jl/dev/troubleshooting/#Manual-installation-of-a-workshop-1) check out the WorkshopWizard [documentation](https://crstnbr.github.io/WorkshopWizard.jl/dev/).
+Apart from Julia itself, the easiest way to get set up for the workshop is to use the [WorkshopWizard](https://crstnbr.github.io/WorkshopWizard.jl/dev/). Just follow the [usage instructions](https://crstnbr.github.io/WorkshopWizard.jl/dev/usage/#Getting-the-latest-workshop-1).
 
 ## Poster
 
