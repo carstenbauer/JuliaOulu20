@@ -20,9 +20,7 @@ Click on the [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.o
 
 First things first: we will use Julia version 1.3 in the course. Go to the [julialang.org](https://julialang.org/downloads/) and install the binaries for your operating system.
 
-The easiest way to get set up for the workshop is to use the [WorkshopWizard](https://crstnbr.github.io/WorkshopWizard.jl/dev/).
-
-Fire up Julia and run the following command
+The easiest way to get set up for the workshop is to use the [WorkshopWizard](https://crstnbr.github.io/WorkshopWizard.jl/dev/). Fire up Julia and run the following command
 ```julia
 using Pkg; pkg"add https:/github.com/crstnbr/WorkshopWizard.jl"
 ```
