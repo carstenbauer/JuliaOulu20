@@ -46,54 +46,7 @@ notebook()
 ```
 and use the web interface (your browser should pop up) to navigate to the workshop directory. That's it!
 
-If, for some reason, the wizard doesn't work for you, turn to the manual instructions below.
-
-
-### Manual installation
-
-#### Workshop Materials
-
-If you have `git` installed, just `git clone https://github.com/crstnbr/JuliaOulu20`. If you don't have `git` installed, or can't access it from the commmand line, start a fresh Julia instance and run
-```julia
-using LibGit2
-LibGit2.clone("https://github.com/crstnbr/JuliaOulu20", "some/where/on/my/computer/JuliaOulu20")
-```
-where you replace `some/where/on/my/computer/` with a download path to your liking.
-
-#### Installion and Precompilation of Package Dependencies
-
-Open up a Julia REPL and navigate to the `JuliaOulu20` directory
-```julia
-cd("some/where/on/my/computer/JuliaOulu20")
-```
-We now install all Julia package dependencies (*instantiate* the workshop's Julia environment) and precompile them by running the following snippet
-```julia
-using Pkg
-pkg"activate ."
-pkg"instantiate"
-pkg"precompile" # this may take a while
-pkg"activate"
-```
-
-#### IJulia/Jupyter
-
-In this (a bit outdated) [youtube video](https://www.youtube.com/watch?v=4Rnm0n39DCs) I show how to install Julia + IJulia/Jupyter on windows. Basically it should be as easy as (in a fresh Julia REPL)
-```julia
-using Pkg
-Pkg.add("IJulia")
-```
-If you have a local python installation and IJulia doesn't recognize it, you may give it a hint with
-```julia
-ENV["PYTHON"] = "path/to/my/python-executable"
-Pkg.build("IJulia")
-```
-
-You now that things are set up correctly when you can start the notebook server
-
-```julia
-using IJulia
-notebook()
-```
+For [troubleshooting](https://crstnbr.github.io/WorkshopWizard.jl/dev/troubleshooting/#Troubleshooting-1) and [manual installation instructions](https://crstnbr.github.io/WorkshopWizard.jl/dev/troubleshooting/#Manual-installation-of-a-workshop-1) check out the WorkshopWizard [documentation](https://crstnbr.github.io/WorkshopWizard.jl/dev/).
 
 ## Poster
 
