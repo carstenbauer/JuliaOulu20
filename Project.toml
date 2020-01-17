@@ -23,6 +23,7 @@ Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 SymPy = "24249f21-da20-56a4-8eb1-6a02cf4ae2e6"
 Traceur = "37b6cedf-1f77-55f8-9503-c64b63398394"
+Unroll = "bec05c2e-cc06-5df2-90c3-340a513e71ff"
 WebIO = "0f1e0344-ec1d-5b48-a673-e5cf874b6c29"
 
 [compat]

@@ -797,6 +797,13 @@ uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 [[Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
+[[Unroll]]
+git-tree-sha1 = "cd33fbb7c3e972f2d2cec079a034b006202a6195"
+repo-rev = "master"
+repo-url = "https://github.com/StephenVavasis/Unroll.jl"
+uuid = "bec05c2e-cc06-5df2-90c3-340a513e71ff"
+version = "0.0.0"
+
 [[VectorizationBase]]
 deps = ["CpuId", "LinearAlgebra"]
 git-tree-sha1 = "a2576763aa20968ffb5668e2e15d45ae8e364d05"
