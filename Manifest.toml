@@ -105,9 +105,9 @@ uuid = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
 version = "0.5.1"
 
 [[Cassette]]
-git-tree-sha1 = "36bd4e0088652b0b2d25a03e531f0d04258feb78"
+git-tree-sha1 = "f6a148cadd38ba328bd2c03442037ef801a6aa05"
 uuid = "7057c7e9-c182-5462-911a-8362d720325c"
-version = "0.3.0"
+version = "0.3.1"
 
 [[ChainRulesCore]]
 deps = ["MuladdMacro"]
@@ -190,9 +190,9 @@ uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 
 [[DiffEqBase]]
 deps = ["ArrayInterface", "ChainRulesCore", "Compat", "DataStructures", "DiffEqDiffTools", "Distributed", "DocStringExtensions", "FunctionWrappers", "IterativeSolvers", "IteratorInterfaceExtensions", "LinearAlgebra", "MuladdMacro", "Parameters", "Printf", "RecipesBase", "RecursiveArrayTools", "RecursiveFactorization", "Requires", "Roots", "SparseArrays", "StaticArrays", "Statistics", "SuiteSparse", "TableTraits", "TreeViews", "ZygoteRules"]
-git-tree-sha1 = "da362e6d347e4544bda1ed47470844524f7cd311"
+git-tree-sha1 = "10ee2c48f4dbc026ea32d524693facf11186e906"
 uuid = "2b5f629d-d688-5b77-993f-72d75c75574e"
-version = "6.12.3"
+version = "6.12.5"
 
 [[DiffEqDiffTools]]
 deps = ["ArrayInterface", "LinearAlgebra", "Requires", "SparseArrays", "StaticArrays"]
@@ -595,10 +595,10 @@ uuid = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 version = "0.7.0"
 
 [[RecursiveArrayTools]]
-deps = ["ArrayInterface", "RecipesBase", "Requires", "StaticArrays", "Statistics"]
-git-tree-sha1 = "f795d0f557ff9f40a16e2b0634fc709ceb59c0d5"
+deps = ["ArrayInterface", "RecipesBase", "Requires", "StaticArrays", "Statistics", "ZygoteRules"]
+git-tree-sha1 = "87563bd0f73f0fc6e3aa9bee1204033b342d634c"
 uuid = "731186ca-8d62-57ce-b412-fbd966d074cd"
-version = "2.0.0"
+version = "2.0.2"
 
 [[RecursiveFactorization]]
 deps = ["LinearAlgebra"]
@@ -635,9 +635,9 @@ uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 
 [[SIMDPirates]]
 deps = ["MacroTools", "VectorizationBase"]
-git-tree-sha1 = "2583fb65de2462163e7fb6cd272c282fd9cf8207"
+git-tree-sha1 = "3303ab900288f497c738c34bd474f40b456ac8ef"
 uuid = "21efa798-c60a-11e8-04d3-e1a92915a26a"
-version = "0.1.7"
+version = "0.1.8"
 
 [[SLEEFPirates]]
 deps = ["SIMDPirates", "VectorizationBase"]
