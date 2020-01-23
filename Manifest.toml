@@ -427,12 +427,6 @@ uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 [[Logging]]
 uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
-[[LoopVectorization]]
-deps = ["LinearAlgebra", "MacroTools", "Parameters", "SIMDPirates", "SLEEFPirates", "VectorizationBase"]
-git-tree-sha1 = "a8d158a4971113443269739f3cc51ae992e95a58"
-uuid = "bdcacae8-1622-11e9-2a5c-532679323890"
-version = "0.3.6"
-
 [[MacroTools]]
 deps = ["DataStructures", "Markdown", "Random"]
 git-tree-sha1 = "e2fc7a55bb2224e203bbd8b59f72b91323233458"
@@ -633,18 +627,6 @@ version = "0.8.4"
 [[SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 
-[[SIMDPirates]]
-deps = ["MacroTools", "VectorizationBase"]
-git-tree-sha1 = "3303ab900288f497c738c34bd474f40b456ac8ef"
-uuid = "21efa798-c60a-11e8-04d3-e1a92915a26a"
-version = "0.1.8"
-
-[[SLEEFPirates]]
-deps = ["SIMDPirates", "VectorizationBase"]
-git-tree-sha1 = "fa6a943f329172eec0f6b1d6b35369631b1d3443"
-uuid = "476501e8-09a2-5ece-8869-fb82de89a1fa"
-version = "0.1.5"
-
 [[Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
@@ -786,12 +768,6 @@ repo-rev = "master"
 repo-url = "https://github.com/StephenVavasis/Unroll.jl"
 uuid = "bec05c2e-cc06-5df2-90c3-340a513e71ff"
 version = "0.0.0"
-
-[[VectorizationBase]]
-deps = ["CpuId", "LinearAlgebra"]
-git-tree-sha1 = "1bd385bfeb18cd919d85cf1a1c9e510bfa4c6d4d"
-uuid = "3d5dd08c-fd9d-11e8-17fa-ed2836048c2f"
-version = "0.1.10"
 
 [[VersionParsing]]
 git-tree-sha1 = "80229be1f670524750d905f8fc8148e5a8c4537f"
