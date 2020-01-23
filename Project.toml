@@ -27,6 +27,7 @@ TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 Traceur = "37b6cedf-1f77-55f8-9503-c64b63398394"
 Unroll = "bec05c2e-cc06-5df2-90c3-340a513e71ff"
 WebIO = "0f1e0344-ec1d-5b48-a673-e5cf874b6c29"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 [compat]
 julia = "1"
