@@ -4,6 +4,7 @@ authors = ["Carsten Bauer <crstnbr@gmail.com>"]
 version = "0.1.0"
 
 [deps]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
 ArnoldiMethod = "ec485272-7323-5ecc-a04f-4719b315124d"
 Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
