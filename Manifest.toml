@@ -147,9 +147,9 @@ version = "2.2.0"
 
 [[Conda]]
 deps = ["JSON", "VersionParsing"]
-git-tree-sha1 = "457ed99182beb33124aa5e602596b67fc6e1c96f"
+git-tree-sha1 = "7a58bb32ce5d85f8bf7559aa7c2842f9aecf52fc"
 uuid = "8f4d0f93-b110-5947-807f-2305c1781a2d"
-version = "1.4.0"
+version = "1.4.1"
 
 [[Contour]]
 deps = ["LinearAlgebra", "StaticArrays", "Test"]
@@ -550,6 +550,11 @@ git-tree-sha1 = "eee8bb40d5265b97b1e6c685d46afbdcc559f789"
 uuid = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 version = "5.28.1"
 
+[[Oulu]]
+path = "C:\\Users\\carsten\\Desktop\\JuliaOulu2020\\Day2\\3_packages_and_github\\Oulu"
+uuid = "64834c8e-64cc-4137-8a5d-82750b60ec3a"
+version = "0.1.0"
+
 [[PDMats]]
 deps = ["Arpack", "LinearAlgebra", "SparseArrays", "SuiteSparse", "Test"]
 git-tree-sha1 = "5f303510529486bb02ac4d70da8295da38302194"
@@ -860,9 +865,9 @@ version = "1.2.0"
 
 [[ZeroMQ_jll]]
 deps = ["Libdl", "Pkg"]
-git-tree-sha1 = "a22171d073707dbcc99a1dfefc2c6e823beb9664"
+git-tree-sha1 = "a2973b77e69568da1294d940b51031e7a5cea850"
 uuid = "8f1865be-045e-5c20-9c9f-bfbfb0764568"
-version = "4.3.1+0"
+version = "4.3.2+0"
 
 [[ZipFile]]
 deps = ["Libdl", "Printf", "Zlib_jll"]
