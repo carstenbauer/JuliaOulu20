@@ -2,7 +2,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/crstnbr/JuliaOulu20/master)
 
-An intermediate Julia workshop for graduate physicists which took take place in February 2020 at the [University of Oulu](https://www.oulu.fi/university/) in Finnland. Only elementary Julia knowledge was required to follow along.
+An intermediate Julia workshop for graduate scientists and engineers which took take place in February 2020 at the [University of Oulu](https://www.oulu.fi/university/) in Finnland. Only elementary Julia knowledge was required to follow along.
 
 Coursework: Equals to 2 ETCS points and contains the workshop lectures as well as a small contribution to the Julia ecosystem.
 
