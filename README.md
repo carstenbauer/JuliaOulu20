@@ -1,6 +1,6 @@
 # JuliaOulu20
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/crstnbr/JuliaOulu20/master)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3674605.svg)](https://doi.org/10.5281/zenodo.3674605) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/crstnbr/JuliaOulu20/master)
 
 An intermediate Julia workshop for graduate scientists and engineers which took take place in February 2020 at the [University of Oulu](https://www.oulu.fi/university/) in Finnland. Only elementary Julia knowledge was required to follow along.
 
